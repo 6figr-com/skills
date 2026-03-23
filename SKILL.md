@@ -115,7 +115,7 @@ When a user wants a tailored resume for a specific job:
 When a user wants to reach out about a job:
 1. Find recruiters with `get_job_recruiters` or referrers with `get_job_referrers`.
 2. Help the user craft a personalized outreach message.
-3. Send it with `send_outreach`.
+3. Present the draft to the user for review. **NEVER call `send_outreach` without explicit user confirmation.** Wait for the user to approve or edit the message before sending.
 
 ### Application Tracking
 When a user wants to check their application status:
