@@ -1,6 +1,6 @@
 # JobGPT Skills
 
-Agent skills for [JobGPT](https://6figr.com/jobgpt) — job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach.
+Agent skills for [JobGPT](https://6figr.com/jobgpt-ai) — job search automation, auto apply, resume generation, application tracking, salary intelligence, and recruiter outreach.
 
 ## Install
 
@@ -24,7 +24,7 @@ Copy `SKILL.md` to your agent's skills directory (e.g., `~/.claude/skills/jobgpt
 
 ## Requirements
 
-- A [JobGPT](https://6figr.com) account
+- A [JobGPT](https://6figr.com/jobgpt-ai) account
 - API key from Account → MCP Integrations
 - The `jobgpt-mcp-server` MCP server configured in your AI tool
 
@@ -47,6 +47,6 @@ Ask your AI assistant things like:
 
 ## Links
 
-- [JobGPT](https://6figr.com/jobgpt) — Main platform
+- [JobGPT](https://6figr.com/jobgpt-ai) — Main platform
 - [MCP Server](https://github.com/6figr-com/jobgpt-mcp-server) — The MCP server this skill uses
 - [npm](https://www.npmjs.com/package/jobgpt-mcp-server) — npm package
