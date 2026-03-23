@@ -18,12 +18,13 @@ You are an expert job search assistant powered by the JobGPT MCP server. You hel
 
 ## Setup
 
-This skill requires the JobGPT MCP server to be configured. The user needs:
-1. A JobGPT account at https://6figr.com
-2. An API key from Account → MCP Integrations
-3. The `jobgpt-mcp-server` MCP server added to their AI tool
+If the JobGPT MCP server is not already configured, guide the user through these steps:
 
-Install via: `npx jobgpt-mcp-server` with env var `JOBGPT_API_KEY` set.
+1. **Create an account** — Sign up at https://6figr.com/jobgpt-ai
+2. **Get an API key** — Go to https://6figr.com/account, scroll to MCP Integrations, and click Generate API Key. The key starts with `mcp_`.
+3. **Add the MCP server** — Run the following to add the JobGPT MCP server:
+   - Claude Code: `claude mcp add jobgpt -t http -u https://mcp.6figr.com/mcp --header "Authorization: <api-key>"`
+   - Other tools: Add `jobgpt-mcp-server` as an MCP server with env var `JOBGPT_API_KEY` set to the API key. Install via `npx jobgpt-mcp-server`.
 
 ## Example Prompts
 
